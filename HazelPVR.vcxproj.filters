@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\HazelPVR">
+      <UniqueIdentifier>{847DF681-7076-15D4-99A8-FA588500F5DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\HazelPVR\Events">
+      <UniqueIdentifier>{E84C8FB3-5484-D74A-5D8E-3B6EC944FE43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HazelPVR">
+      <UniqueIdentifier>{A8D1776D-9434-0712-3DBA-3FC829FCD294}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\HazelPVR.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HazelPVR\Application.h">
+      <Filter>include\HazelPVR</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HazelPVR\Core.h">
+      <Filter>include\HazelPVR</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HazelPVR\EntryPoint.h">
+      <Filter>include\HazelPVR</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HazelPVR\Events\ApplicationEvent.h">
+      <Filter>include\HazelPVR\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HazelPVR\Events\Event.h">
+      <Filter>include\HazelPVR\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HazelPVR\Events\KeyEvent.h">
+      <Filter>include\HazelPVR\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HazelPVR\Events\MouseEvent.h">
+      <Filter>include\HazelPVR\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HazelPVR\Log.h">
+      <Filter>include\HazelPVR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\HazelPVR\Application.cpp">
+      <Filter>src\HazelPVR</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HazelPVR\Core.cpp">
+      <Filter>src\HazelPVR</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HazelPVR\Log.cpp">
+      <Filter>src\HazelPVR</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SandboxApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
